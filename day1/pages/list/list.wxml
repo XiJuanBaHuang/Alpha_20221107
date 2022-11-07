@@ -1,0 +1,46 @@
+<!--pages/list/list.wxml-->
+<!-- <text>pages/list/list.wxml</text> -->
+
+
+
+<!-- 按钮 组件 的基本使用 -->
+<!-- 通过 type 来指定按钮颜色类型 -->
+<!-- 和之前的 class 类似 -->
+
+<!-- <button>普通按钮</button>
+<button type="primary"> 主色调按钮</button>
+<button type="warn">警告按钮</button> -->
+
+<!-- 小尺寸 按钮 -->
+<!-- <button size="mini">普通按钮</button>
+<button type="primary" size="mini"> 主色调按钮</button>
+<button type="warn" size="mini">警告按钮</button> -->
+
+<!-- 
+<button>普通按钮</button>
+<button type="primary"> 主色调按钮</button>
+<button type="warn">警告按钮</button> -->
+
+<!-- 镂空  背景透明 -->
+<!-- <button plain>普通按钮</button>
+<button type="primary" plain>主色调按钮</button>
+<button type="warn" plain>警告按钮</button> -->
+
+
+
+
+
+<!-- ===================================  image 组件   ======================================= -->
+
+<!-- <image src="/image/icon_component.jpg" mode="widthFix"></image>
+<image src="/image/icon_API.jpg" mode="widthFix"></image>
+<image src="/image/icon_component.jpg" mode="heightFix"></image>
+<image src="/image/58b155ec-ece3-4301-9b0e-b2759edc77df.jpg" mode="aspectFit"></image>
+<image src="/image/一身正气高清版.png" mode="aspectFill"></image> -->
+
+
+
+
+<!--  -->
+
+

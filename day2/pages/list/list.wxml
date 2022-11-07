@@ -1,0 +1,28 @@
+<!--pages/list/list.wxml-->
+<!-- <text>pages/list/list.wxml</text> -->
+
+<!-- 动态绑定 内容 -->
+<text >{{    info    }}</text>
+<!-- 动态绑定 属性 -->
+<!-- <text>{{    info    }}</text> -->
+<image src="{{imgsrc}}" mode="heightFix"></image>
+<!-- 三元运算 -->
+<!-- <view>{{randomNum1 >= 5 ? '数字大于等于5' : '数字小于5' }}</view> -->
+<!-- 算数运算 -->
+<!-- <view>{{randomNum2 * 100}}</view> -->
+
+
+
+<!-- 事件绑定 -->
+<!-- 不能事件处理时 传参 -->
+<button type="primary" bindtap="btnTapHandler">安妮</button>
+<button type="warn" bindtap="ChangeCount">+1</button>
+<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button>
+
+
+<!-- input事件 -->
+<input bindinput="inputHandler" />
+<button type="primary">Hello</button>
+<input value="{{msg}}" bindinput="inputHandler" />
+
+
