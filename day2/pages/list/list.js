@@ -10,7 +10,15 @@ Page({
         randomNum1: Math.random() * 10,
         randomNum2: Math.random().toFixed(2),
         count: 0,
-        msg: '你好, '
+        msg: '你好, ',
+        type: 1,
+        flag: true,
+        arr1: ['APPLE', 'HUAWEI', 'XIAOMI'],
+        userList: [
+            { id: 1, name: '小红' },
+            { id: 2, name: '小黄' },
+            { id: 3, name: '小白' }
+        ]
     },
 
     // +1 按钮的事件处理函数

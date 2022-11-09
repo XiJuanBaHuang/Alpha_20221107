@@ -2,10 +2,10 @@
 <!-- <text>pages/list/list.wxml</text> -->
 
 <!-- 动态绑定 内容 -->
-<text >{{    info    }}</text>
+<!-- <text >{{    info    }}</text> -->
 <!-- 动态绑定 属性 -->
 <!-- <text>{{    info    }}</text> -->
-<image src="{{imgsrc}}" mode="heightFix"></image>
+<!-- <image src="{{imgsrc}}" mode="heightFix"></image> -->
 <!-- 三元运算 -->
 <!-- <view>{{randomNum1 >= 5 ? '数字大于等于5' : '数字小于5' }}</view> -->
 <!-- 算数运算 -->
@@ -15,14 +15,79 @@
 
 <!-- 事件绑定 -->
 <!-- 不能事件处理时 传参 -->
-<button type="primary" bindtap="btnTapHandler">安妮</button>
+<!-- <button type="primary" bindtap="btnTapHandler">安妮</button>
 <button type="warn" bindtap="ChangeCount">+1</button>
-<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button>
+<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button> -->
 
 
 <!-- input事件 -->
-<input bindinput="inputHandler" />
+<!-- <input bindinput="inputHandler" />
 <button type="primary">Hello</button>
-<input value="{{msg}}" bindinput="inputHandler" />
+<input value="{{msg}}" bindinput="inputHandler" /> -->
 
 
+
+<!-- 条件渲染 -->
+
+<!-- wx:if      hidden -->
+<!-- <view>男</view>
+<view>女</view>
+<view>保密</view>
+<view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type === 2}}">女</view>
+<view wx:else>保密</view> -->
+
+
+
+<!-- block 是一个包裹性质的容器 -->
+<!-- <block wx:if="true">
+    <view>view1</view>
+    <view>view2</view>
+</block> -->
+<!-- 上下两种 true 的写法等价 -->
+<!-- <block wx:if="{{true}}">
+    <view>view1</view>
+    <view>view2</view>
+</block>
+
+<view>
+    <view>view3</view>
+    <view>view4</view>
+</view> -->
+
+
+
+
+
+<!-- <view hidden="{{!flag}}">
+条件为true的时候隐藏元素 否则显示
+</view>
+
+<view wx:if="{{flag}}">
+这是使用 wx:if 控制的元素
+</view> -->
+
+
+
+
+<!-- wx:for -->
+<view wx:for="{{arr1}}" wx:key="index">
+    索引是   : {{index}},
+    当前项是 : {{item}}
+</view>
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+
+<!-- wx:for-index -->
+<!-- wx:for-item -->
+<view wx:for="{{arr1}}" wx:for-index="idx" wx:for-item="itemName" wx:key="idx">
+    索引是   : {{idx+1}},
+    当前项是 : {{itemName}}
+</view>
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+
+<!-- wx:key -->
+<view wx:for="{{userList}}" wx:key="id" class="username">
+    {{item.name}}
+</view>
