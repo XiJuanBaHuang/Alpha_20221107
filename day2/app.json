@@ -2,7 +2,6 @@
     "pages": [
         "pages/list/list",
         "pages/test/test",
-        
         "pages/index/index",
         "pages/logs/logs"
     ],
@@ -10,7 +9,22 @@
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#ffbb00",
         "navigationBarTitleText": "猫猫喵喵喵",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#191970",
+        "onReachBottomDistance": 100
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/list/list",
+                "text": "list首页"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "index首页"
+            }
+        ]
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"
