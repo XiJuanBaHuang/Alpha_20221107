@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<text class="g-red-text">pages/home/home.wxml</text>
+
+
+<!-- 图片 区域 -->
+<view class="img-box">
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_tim_blandin_06_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_lee_barinme_02_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+
+</view>
+
+<my-test1 max="9"></my-test1>
+
+<view class="img-box">
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_andreas_rocha_07_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_nikolai_lockertsen_21_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+
+</view>
+
+<my-test2></my-test2>
+
+
+<view class="img-box">
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_wlop__13_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_bach_do_02_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+
+</view>
+
+<my-test3></my-test3>

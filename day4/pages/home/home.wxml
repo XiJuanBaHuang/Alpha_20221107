@@ -1,0 +1,50 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+
+
+
+<!-- 图片 区域 -->
+<view class="img-box">
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_tim_blandin_06_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+    <image src="https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_lee_barinme_02_2560x1440.jpg&height=450&width=800&fill-to-fit&sharpen" mode="widthFix">
+    </image>
+</view>
+
+
+
+
+
+<!-- navigator -->
+<!-- 声明式导航 => 使用 navigator 组件  可视化的导航图标 -->
+<!-- 通过 声明式导航跳转到 tabBar 页面 -->
+<navigator url="/pages/message/message" open-type="switchTab">导航到消息页面</navigator>
+<!-- 默认  open-type="navigate" -->
+<!-- 通过 声明式导航跳转到 非tabBar 页面 -->
+<navigator url="/pages/info/info" open-type="navigate">导航到info页面</navigator>
+
+
+<!-- 通过 编程式导航跳转到 tabBar 页面 -->
+<button bindtap="gotoMessage">跳转到 message 页面</button>
+<!-- 通过 编程式导航跳转到 非tabBar 页面 -->
+<button bindtap="gotoInfo">跳转到 info 页面</button>
+
+
+
+
+<!-- 导航传参 -->
+<!-- 声明式导航传参 -->
+<navigator url="/pages/info/info?name=zs&age=20">跳转到 info 页面</navigator>
+<!-- 编程式导航传参 -->
+<button bindtap="gotoInfo2">跳转到 info2 页面</button>
+
+
+
+
+
+
+
+
+
+
+<view class="box"></view>

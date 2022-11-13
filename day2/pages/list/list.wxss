@@ -8,8 +8,8 @@ input {
     border-radius: 3px
 }
 
-view {
+/* view {
     background-color: lightpink;
-}
+} */
 /* rpx */
 /* 自动适配 */

@@ -1,0 +1,7 @@
+<!--pages/info/info.wxml-->
+<text>pages/info/info.wxml</text>
+<!-- 默认 delta="1"  -->
+<navigator open-type="navigateBack" >返回上一层</navigator>
+
+<!-- 通过 编程式导航 实现后退导航 -->
+<button bindtap="goBack">后退</button>

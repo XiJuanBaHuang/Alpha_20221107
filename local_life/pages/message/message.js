@@ -5,8 +5,16 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        count: 0
     },
+
+    // 
+    addCount() {
+        this.setData( {
+            count: this.data.count + 1
+        })
+    },
+
 
     /**
      * 生命周期函数--监听页面加载
@@ -47,7 +55,14 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-
+        console.log('触发了 message 页面的下拉刷新');
+        this.setData({
+            count: 0
+        })
+        // 当数据刷新成功后 调用以下函数 自动关闭下拉刷新效果
+        wx.stopPullDownRefresh({
+          success: (res) => {},
+        })
     },
 
     /**

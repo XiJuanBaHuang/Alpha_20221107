@@ -8,7 +8,8 @@ Page({
         // 存放轮播图
         swiperList: [],
         // 存放九宫格
-        gridList: []
+        gridList: [],
+
     },
 
     /**
@@ -19,31 +20,34 @@ Page({
         this.getGridList();
     },
 
+
+
+
     // 获取 轮播图 数据
     getSwiperList() {
         wx.request({
-          url: 'https://www.escook.cn/slides',
-          method: 'GET',
-          success: (res) => {
-              console.log(res);
-              this.setData({
-                  swiperList: res.data
-              })
-          }
+            url: 'https://www.escook.cn/slides',
+            method: 'GET',
+            success: (res) => {
+                console.log(res);
+                this.setData({
+                    swiperList: res.data
+                })
+            }
         })
     },
 
     // 获取 九宫格 数据
     getGridList() {
         wx.request({
-          url: 'https://www.escook.cn/categories',
-          method: 'GET',
-          success: (res) => {
-            //   console.log(res);
-            this.setData({
-                gridList: res.data
-            })
-          }
+            url: 'https://www.escook.cn/categories',
+            method: 'GET',
+            success: (res) => {
+                //   console.log(res);
+                this.setData({
+                    gridList: res.data
+                })
+            }
         })
     },
 
@@ -87,7 +91,7 @@ Page({
      * 页面上拉触底事件的处理函数
      */
     onReachBottom() {
-
+        console.log('触发了上拉触底事件')
     },
 
     /**
