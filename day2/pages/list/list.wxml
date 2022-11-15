@@ -15,9 +15,9 @@
 
 <!-- 事件绑定 -->
 <!-- 不能事件处理时 传参 -->
-<!-- <button type="primary" bindtap="btnTapHandler">安妮</button>
+<button type="primary" bindtap="btnTapHandler">安妮</button>
 <button type="warn" bindtap="ChangeCount">+1</button>
-<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button> -->
+<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button>
 
 
 <!-- input事件 -->

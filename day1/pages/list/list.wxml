@@ -16,15 +16,15 @@
 <button type="primary" size="mini"> 主色调按钮</button>
 <button type="warn" size="mini">警告按钮</button> -->
 
-<!-- 
+
 <button>普通按钮</button>
 <button type="primary"> 主色调按钮</button>
-<button type="warn">警告按钮</button> -->
+<button type="warn">警告按钮</button>
 
 <!-- 镂空  背景透明 -->
-<!-- <button plain>普通按钮</button>
+<button plain>普通按钮</button>
 <button type="primary" plain>主色调按钮</button>
-<button type="warn" plain>警告按钮</button> -->
+<button type="warn" plain>警告按钮</button>
 
 
 
@@ -32,11 +32,11 @@
 
 <!-- ===================================  image 组件   ======================================= -->
 
-<!-- <image src="/image/icon_component.jpg" mode="widthFix"></image>
+<image src="/image/icon_component.jpg" mode="widthFix"></image>
 <image src="/image/icon_API.jpg" mode="widthFix"></image>
 <image src="/image/icon_component.jpg" mode="heightFix"></image>
 <image src="/image/58b155ec-ece3-4301-9b0e-b2759edc77df.jpg" mode="aspectFit"></image>
-<image src="/image/一身正气高清版.png" mode="aspectFill"></image> -->
+<image src="/image/一身正气高清版.png" mode="aspectFill"></image>
 
 
 

@@ -32,6 +32,7 @@ Component({
     // },
 
     options: {
+      // 纯数据字段
         pureDataPattern: /^_/
     },
 

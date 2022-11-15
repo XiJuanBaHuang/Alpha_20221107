@@ -1,7 +1,7 @@
 // components/test/test.js
 Component({
     options: {
-        styleIsolation: 'shared'
+        styleIsolation: 'apply-shared'
     },
   /**
    * 组件的属性列表
